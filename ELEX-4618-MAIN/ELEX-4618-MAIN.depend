@@ -1,0 +1,333 @@
+# depslib dependency file v1.0
+1552524707 source:/home/pi/Desktop/ELEX-4618-MAIN/ELEX-4618-MAIN/main.cpp
+	<iostream>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CAsteroid.cpp
+	"stdafx.h"
+	"CAsteroid.h"
+	<time.h>
+
+1552680243 /home/pi/Desktop/ELEX-4618-MAIN/stdafx.h
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CAsteroid.h
+	"CGameObject.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CGameObject.h
+	"CBase4618.h"
+	"opencv.hpp"
+	<opencv2/opencv.hpp>
+
+1411092226 /usr/include/opencv2/opencv.hpp
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/photo/photo.hpp"
+	"opencv2/video/video.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/ml/ml.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/contrib/contrib.hpp"
+
+1553193473 source:/home/pi/Desktop/ELEX-4618-MAIN/CAsteroidGame.cpp
+	"stdafx.h"
+	"CAsteroidGame.h"
+	"CShip.h"
+	"CAsteroid.h"
+	"CMissile.h"
+	"CGameObject.h"
+	<opencv2/opencv.hpp>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CAsteroidGame.h
+	"CBase4618.h"
+	"CShip.h"
+	"CAsteroid.h"
+	"CMissile.h"
+
+1552680414 /home/pi/Desktop/ELEX-4618-MAIN/CBase4618.h
+	"stdafx.h"
+	"CControl.h"
+	"CControlPi.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CControl.h
+	"stdafx.h"
+	"Serial.h"
+	<string>
+	<iostream>
+	<thread>
+	"conio.h"
+	"opencv.hpp"
+
+1552680243 /home/pi/Desktop/ELEX-4618-MAIN/Serial.h
+	<string>
+	<windows.h>
+
+1553209675 /home/pi/Desktop/ELEX-4618-MAIN/CControlPi.h
+	<opencv2/opencv.hpp>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CShip.h
+	"CGameObject.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CMissile.h
+	"CGameObject.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CBase4618.cpp
+	"stdafx.h"
+	"CBase4618.h"
+	<time.h>
+
+1553209675 source:/home/pi/Desktop/ELEX-4618-MAIN/CControlPi.cpp
+	"stdafx.h"
+	"CControlPi.h"
+	<pigpio.h>
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CGameObject.cpp
+	"stdafx.h"
+	"CGameObject.h"
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CMissile.cpp
+	"stdafx.h"
+	"CMissile.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CPong.cpp
+	"stdafx.h"
+	"CPong.h"
+	"CControl.h"
+	"CControlPi.h"
+	<opencv2/opencv.hpp>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CPong.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CShip.cpp
+	"stdafx.h"
+	"CShip.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN/CSketch.cpp
+	"stdafx.h"
+	"CSketch.h"
+	"CControl.h"
+	"CControlPi.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CSketch.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1552680243 source:/home/pi/Desktop/ELEX-4618-MAIN/stdafx.cpp
+	"stdafx.h"
+
+1553123370 source:/home/pi/Desktop/ELEX-4618-MAIN/4618_Template.cpp
+	"stdafx.h"
+	<string>
+	<iostream>
+	<thread>
+	<iomanip>
+	"CAsteroidGame.h"
+	"CPong.h"
+	"CSketch.h"
+	"CBase4618.h"
+	"CControl.h"
+	"Serial.h"
+	"opencv.hpp"
+	"CControlPi.h"
+	"CBlueberrySort.h"
+	<opencv2/opencv.hpp>
+	<pigpio.h>
+	"unistd.h"
+	<sys/ioctl.h>
+	<termios.h>
+
+1553207786 source:/home/pi/Desktop/ELEX-4618-MAIN/CBlueberryHardware.cpp
+	"stdafx.h"
+	"CBlueberryHardware.h"
+	"unistd.h"
+	<pigpio.h>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN/CBlueberryHardware.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1553207078 source:/home/pi/Desktop/ELEX-4618-MAIN/CBlueberryCamera.cpp
+	"CBlueberryCamera.h"
+	"unistd.h"
+	<opencv2/opencv.hpp>
+
+1553204183 /home/pi/Desktop/ELEX-4618-MAIN/CBlueberryCamera.h
+	"stdafx.h"
+	"CBase4618.h"
+	<opencv2/opencv.hpp>
+
+1553209070 source:/home/pi/Desktop/ELEX-4618-MAIN/CBlueberrySort.cpp
+	"CBlueberrySort.h"
+	"unistd.h"
+	<opencv2/opencv.hpp>
+
+1553204182 /home/pi/Desktop/ELEX-4618-MAIN/CBlueberrySort.h
+	"stdafx.h"
+	"CBase4618.h"
+	"CBlueberryHardware.h"
+	"CBlueberryCamera.h"
+	<opencv2/opencv.hpp>
+
+1552680230 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/4618_Template.cpp
+	"stdafx.h"
+	<string>
+	<iostream>
+	<thread>
+	<iomanip>
+	"CAsteroidGame.h"
+	"CPong.h"
+	"CSketch.h"
+	"CBase4618.h"
+	"CControl.h"
+	"Serial.h"
+	"opencv.hpp"
+	"CControlPi.h"
+	"CBlueberrySort.h"
+	<opencv2/opencv.hpp>
+	<opencv2/tracking.hpp>
+	<pigpio.h>
+	"unistd.h"
+	<sys/ioctl.h>
+	<termios.h>
+
+1552680243 /home/pi/Desktop/ELEX-4618-MAIN (1)/stdafx.h
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CAsteroidGame.h
+	"CBase4618.h"
+	"CShip.h"
+	"CAsteroid.h"
+	"CMissile.h"
+
+1552680414 /home/pi/Desktop/ELEX-4618-MAIN (1)/CBase4618.h
+	"stdafx.h"
+	"CControl.h"
+	"CControlPi.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CControl.h
+	"stdafx.h"
+	"Serial.h"
+	<string>
+	<iostream>
+	<thread>
+	"conio.h"
+	"opencv.hpp"
+
+1552680243 /home/pi/Desktop/ELEX-4618-MAIN (1)/Serial.h
+	<string>
+	<windows.h>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CControlPi.h
+	<opencv2/opencv.hpp>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CShip.h
+	"CGameObject.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CGameObject.h
+	"CBase4618.h"
+	"opencv.hpp"
+	<opencv2/opencv.hpp>
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CAsteroid.h
+	"CGameObject.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CMissile.h
+	"CGameObject.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CPong.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CSketch.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CBlueberrySort.h
+	"stdafx.h"
+	"CBase4618.h"
+	"CBlueberryHardware.h"
+	"CBlueberryCamera.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CBlueberryHardware.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1552680231 /home/pi/Desktop/ELEX-4618-MAIN (1)/CBlueberryCamera.h
+	"stdafx.h"
+	"CBase4618.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CAsteroid.cpp
+	"stdafx.h"
+	"CAsteroid.h"
+	<time.h>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CAsteroidGame.cpp
+	"stdafx.h"
+	"CAsteroidGame.h"
+	"CShip.h"
+	"CAsteroid.h"
+	"CMissile.h"
+	"CGameObject.h"
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CBase4618.cpp
+	"stdafx.h"
+	"CBase4618.h"
+	<time.h>
+
+1552680558 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CBlueberryCamera.cpp
+	"CBlueberryCamera.h"
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CBlueberryHardware.cpp
+	"stdafx.h"
+	"CBlueberryHardware.h"
+	"unistd.h"
+	<pigpio.h>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CBlueberrySort.cpp
+	"CBlueberrySort.h"
+	"unistd.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CControlPi.cpp
+	"stdafx.h"
+	"CControlPi.h"
+	<pigpio.h>
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CGameObject.cpp
+	"stdafx.h"
+	"CGameObject.h"
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CMissile.cpp
+	"stdafx.h"
+	"CMissile.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CPong.cpp
+	"stdafx.h"
+	"CPong.h"
+	"CControl.h"
+	"CControlPi.h"
+	<opencv2/opencv.hpp>
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CShip.cpp
+	"stdafx.h"
+	"CShip.h"
+
+1552680231 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/CSketch.cpp
+	"stdafx.h"
+	"CSketch.h"
+	"CControl.h"
+	"CControlPi.h"
+
+1552680243 source:/home/pi/Desktop/ELEX-4618-MAIN (1)/stdafx.cpp
+	"stdafx.h"
+

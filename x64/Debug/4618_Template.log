@@ -1,0 +1,8 @@
+﻿  4618_Template.cpp
+c:\users\john\desktop\elex-4618-main\cbase4618.h(36): warning C4244: 'initializing': conversion from 'int64' to 'double', possible loss of data
+c:\users\john\desktop\elex-4618-main\cgameobject.h(28): warning C4244: 'initializing': conversion from 'int64' to 'double', possible loss of data
+c:\users\john\desktop\elex-4618-main\4618_template.cpp(124): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\john\desktop\elex-4618-main\4618_template.cpp(128): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\john\desktop\elex-4618-main\4618_template.cpp(131): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\john\desktop\elex-4618-main\4618_template.cpp(133): warning C4309: '=': truncation of constant value
+  4618_Template.vcxproj -> C:\Users\John\Desktop\ELEX-4618-MAIN\x64\Debug\4618_Template.exe

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ELEX-4618-MAIN" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ELEX-4618-MAIN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../usr/include/opencv" />
+					<Add directory="../../../../../usr/include/opencv2" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ELEX-4618-MAIN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-Wall `pkg-config --cflags opencv` -std=c++11 -c" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wall `pkg-config --libs opencv` -std=c++11 -lpigpio -lrt -lpthread" />
+		</Linker>
+		<Unit filename="../4618_Template.cpp" />
+		<Unit filename="../CAsteroid.cpp" />
+		<Unit filename="../CAsteroid.h" />
+		<Unit filename="../CAsteroidGame.cpp" />
+		<Unit filename="../CAsteroidGame.h" />
+		<Unit filename="../CBase4618.cpp" />
+		<Unit filename="../CBase4618.h" />
+		<Unit filename="../CBlueberryCamera.cpp" />
+		<Unit filename="../CBlueberryCamera.h" />
+		<Unit filename="../CBlueberryHardware.cpp" />
+		<Unit filename="../CBlueberryHardware.h" />
+		<Unit filename="../CBlueberrySort.cpp" />
+		<Unit filename="../CBlueberrySort.h" />
+		<Unit filename="../CControlPi.cpp" />
+		<Unit filename="../CControlPi.h" />
+		<Unit filename="../CGameObject.cpp" />
+		<Unit filename="../CGameObject.h" />
+		<Unit filename="../CMissile.cpp" />
+		<Unit filename="../CMissile.h" />
+		<Unit filename="../CPong.cpp" />
+		<Unit filename="../CPong.h" />
+		<Unit filename="../CShip.cpp" />
+		<Unit filename="../CShip.h" />
+		<Unit filename="../CSketch.cpp" />
+		<Unit filename="../CSketch.h" />
+		<Unit filename="../stdafx.cpp" />
+		<Unit filename="../stdafx.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
